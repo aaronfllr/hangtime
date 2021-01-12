@@ -7,9 +7,7 @@ working from home.
 To get started ensure that all of the requirements are met in the requirements.txt file.
 You may have to install bootstrap with; install bootstrap #npm install bootstrap reactstrap axios --save
 This app is maintained and updated by Aaron Fuller.
-To run as SQlite change the database to
-  'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-    
+
+To get the submodule front-end after run:
+git submodule init
+git submodule update
