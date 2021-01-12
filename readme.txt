@@ -1,23 +1,23 @@
-https://blog.logrocket.com/creating-an-app-with-react-and-django/
+Steps taken for future project's reference
 Django BE
 startproject
 Settings.py
   INSTALLED_APPS
   MIDDLEWARE
+  connected to mysql
 Startapp
-Models.py #Changed to hangboard
-makemigrations #makemigrations new models
-migrate #migrated new models
-python manage.py makemigrations --empty --name students students #creating what we call a data migration file #changed to Tensionblock
-^in file add create_data model #^
-Serializers.py #in app folder #Changed to Tensionblock
+Models.py 
+makemigrations 
+migrate 
+Serializers.py #in app folder
 url.py of project folder
-views.py of app folder #changed to Tensionblock
+views.py of app folder
 
 React FE
 install react #npx create-react-app NAME
 install bootstrap #npm install bootstrap reactstrap axios --save
 create folder in src/ constant, add file index.js
 create folder in src/  components, add file header.js
-create file in src/components/, NewStudentForm.js, NewStudentModal.js, StudentList.js, ConfirmRemovalModal.js#updated, Home.js
+create file in src/components/
+do make reacr components
 Import the header and Home components to App.js
