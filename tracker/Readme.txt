@@ -7,4 +7,3 @@ working from home.
 To get started ensure that all of the requirements are met in the requirements.txt file.
 You may have to install bootstrap with; install bootstrap #npm install bootstrap reactstrap axios --save
 This app is maintained and updated by Aaron Fuller.
-
